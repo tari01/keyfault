@@ -22,7 +22,7 @@
 #include <X11/extensions/scrnsaver.h>
 #include <X11/XKBlib.h>
 
-#define APPVERSION "20.4.4"
+#define APPVERSION "20.4.5"
 
 int main(int argc, char* argv[])
 {
