@@ -1,0 +1,15 @@
+Source: keyfault
+Section: utils
+Priority: optional
+Maintainer: Robert Tari <robert@tari.in>
+Build-Depends: debhelper (>= 10), gcc, pkg-config, libxss-dev
+Standards-Version: 4.1.2
+Homepage: https://tari.in/www/software/keyfault/
+
+Package: keyfault
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libxss1
+Description: Keyboard Auto-Default
+ Reverts the keyboard layout to the default once the screensaver has
+ activated/the display has turned off or the computer has been idle for
+ a certain amount of time.

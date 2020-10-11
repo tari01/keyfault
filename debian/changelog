@@ -1,0 +1,34 @@
+keyfault (20.4.4) unstable; urgency=medium
+
+  * Drop notification
+  * Rewrite application in C
+
+ -- Robert Tari <robert@tari.in>  Sat, 04 Apr 2020 16:19:14 +0200
+
+keyfault (17.3.11) unstable; urgency=medium
+
+  * Set check interval to 10 seconds
+  * Check if XScreenSaverInfo.state == ScreenSaverOn
+  * Notify only when screensaver is deactivated
+  * Added i18n
+
+ -- Robert Tari <robert@tari.in>  Sat, 11 Mar 2017 02:15:32 +0100
+
+keyfault (16.12.28) unstable; urgency=medium
+
+  * Reworked notification code
+
+ -- Robert Tari <robert@tari.in>  Wed, 28 Dec 2016 08:01:02 +0100
+
+keyfault (16.12.23) unstable; urgency=medium
+
+  * Added return messages
+  * Set notification never to expire
+
+ -- Robert Tari <robert@tari.in>  Fri, 23 Dec 2016 05:55:55 +0100
+
+keyfault (16.12.22) unstable; urgency=medium
+
+  * Initial release
+
+ -- Robert Tari <robert@tari.in>  Thu, 22 Dec 2016 08:03:54 +0100
